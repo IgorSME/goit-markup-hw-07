@@ -17,13 +17,13 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: var(--primary-icon-color);
+  color: $primary-icon-color;
 
-  transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
+  transition: color 250ms $timing-function, background-color 250ms $timing-function;
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
-    color: var(--white-text-color);
+    background-color: $accent-color;
+    color: $white-text-color;
   }
 }
 .social__icon {

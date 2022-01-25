@@ -1,7 +1,7 @@
 .footer-page {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--secondary-bcg-color);
+  background-color: $secondary-bcg-color;
 }
 .footer-page__container {
   display: flex;
@@ -17,7 +17,7 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--white-text-color);
+  color: $white-text-color;
 }
 .footer-social {
   display: flex;
@@ -30,13 +30,13 @@
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  color: var(--white-text-color);
+  color: $white-text-color;
 
-  transition: background-color 250ms var(--timing-function);
+  transition: background-color 250ms $timing-function;
 
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 }
 .footer-social__icon {
@@ -45,18 +45,18 @@
 
 .address__contacts {
   text-decoration: none;
-  color: var(--footer-adress-link-color);
+  color: $footer-adress-link-color;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms $timing-function;
   &:hover,
   &:focus {
-    color: var(--white-text-color);
+    color: $white-text-color;
   }
   &--white {
-    color: var(--white-text-color);
+    color: $white-text-color;
   }
 }
 
@@ -81,8 +81,8 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--secondary-bcg-color);
-  color: var(--white-text-color);
+  background-color: $secondary-bcg-color;
+  color: $white-text-color;
 }
 .footer-form__input::placeholder {
   color: rgba(255, 255, 255, 0.6);

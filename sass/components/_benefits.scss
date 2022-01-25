@@ -10,7 +10,7 @@
   display: flex;
   height: 120px;
   margin-bottom: 30px;
-  background-color: var(--primary-bcg-button);
+  background-color: $primary-bcg-button;
   border-radius: 4px;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,7 @@
 .benefits__description {
   margin-top: 0;
   margin-bottom: 0;
-  color: var(--secodary-text-color);
+  color: $secodary-text-color;
   font-size: 14px;
   line-height: 1.71;
 }

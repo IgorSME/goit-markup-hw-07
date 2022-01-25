@@ -4,8 +4,8 @@
   border: none;
   border-radius: 4px;
 
-  color: var(--white-text-color);
-  background-color: var(--accent-color);
+  color: $white-text-color;
+  background-color: $accent-color;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -16,9 +16,9 @@
   cursor: pointer;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-  transition: background-color 250ms var(--timing-function);
+  transition: background-color 250ms $timing-function;
   &:hover,
   &:focus {
-    background-color: var(--button-hero-hover-color);
+    background-color: $button-hero-hover-color;
   }
 }

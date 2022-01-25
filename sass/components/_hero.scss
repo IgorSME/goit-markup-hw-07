@@ -4,7 +4,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 200px 0;
-  background-color: var(--secondary-bcg-color);
+  background-color: $secondary-bcg-color;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/Hero.jpg');
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@
   margin-right: auto;
   width: 696px;
 
-  color: var(--white-text-color);
+  color: $white-text-color;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -43,7 +43,7 @@
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-  transition: visibility 0ms 250ms, opacity 250ms var(--timing-function);
+  transition: visibility 0ms 250ms, opacity 250ms $timing-function;
 }
 .backdrop--is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.7);
@@ -59,14 +59,14 @@
   height: 581px;
   padding: 40px;
 
-  background: var(--white-text-color);
+  background: $white-text-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
   opacity: 1;
   visibility: visible;
-  transition: transform 250ms var(--timing-function), opacity 250ms var(--timing-function);
+  transition: transform 250ms $timing-function, opacity 250ms $timing-function;
 }
 .modal__btn {
   position: absolute;
@@ -80,7 +80,7 @@
   padding: 0;
   width: 30px;
   height: 30px;
-  background-color: #ffffff;
+  background-color: $white-text-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -89,9 +89,9 @@
   cursor: pointer;
 }
 .modal__close-btn {
-  transition: fill 250ms var(--timing-function);
+  transition: fill 250ms $timing-function;
   .modal__btn:hover & {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
 }
 
@@ -106,7 +106,7 @@
   line-height: 1.15;
   text-align: center;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .registration-form__label {
@@ -120,7 +120,7 @@
   margin-bottom: 20px;
 
   &:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
 }
 .registration-form__input {
@@ -130,10 +130,10 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
-  transition: border-color 250ms var(--timing-function);
+  transition: border-color 250ms $timing-function;
 
   &:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
 }
 .registration-form__thumb {
@@ -141,7 +141,7 @@
 }
 
 .registration-form__input:focus + .registration-form__icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .registration-form__textarea {
   width: 100%;
@@ -164,16 +164,16 @@
   line-height: 1.16;
   letter-spacing: 0.01em;
 
-  color: var(--secodary-text-color);
+  color: $secodary-text-color;
 }
 .registration-form__icon {
   position: absolute;
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
-  fill: var(--primary-text-color);
+  fill: $primary-text-color;
 
-  transition: fill 250ms var(--timing-function);
+  transition: fill 250ms $timing-function;
 }
 .policy {
   display: flex;
@@ -184,7 +184,7 @@
   cursor: pointer;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--secodary-text-color);
+  color: $secodary-text-color;
 }
 .policy__check {
   -webkit-appearance: none;
@@ -192,19 +192,18 @@
   appearance: none;
 }
 .policy__check:checked + .policy__icon {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: $accent-color;
+  border-color: $accent-color;
 }
 .policy__icon {
   margin-right: 7px;
-  border: 1px solid var(--primary-text-color);
+  border: 1px solid $primary-text-color;
   border-radius: 2px;
-  transition: background-color 250ms var(--timing-function),
-    border-color 250ms var(--timing-function);
+  transition: background-color 250ms $timing-function, border-color 250ms $timing-function;
 }
 .policy__link {
   font-size: 14px;
   line-height: 1.71;
   text-decoration-line: underline;
-  color: #2196f3;
+  color: $accent-color;
 }
