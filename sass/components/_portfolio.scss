@@ -21,10 +21,6 @@
   }
 }
 
-.project:hover .project__overlay,
-.project:focus .project__overlay {
-  transform: translateY(0);
-}
 .project__box {
   padding: 20px 24px;
   border-right: 1px solid $border-primary-color;
@@ -65,4 +61,9 @@
 
   color: $white-text-color;
   background-color: rgba(33, 150, 243, 0.9);
+
+  .project:hover &,
+  .project:focus & {
+    transform: translateY(0);
+  }
 }

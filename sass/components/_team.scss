@@ -11,15 +11,12 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team__description {
+.team__thumb {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* Works */
-.section--short {
-  padding-top: 0;
-}
-.team__employe {
+
+.team__title {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -27,7 +24,7 @@
   line-height: 1.19;
   text-align: center;
 }
-.team__position {
+.team__text {
   margin-bottom: 16px;
   color: $secodary-text-color;
   font-size: 16px;

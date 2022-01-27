@@ -6,7 +6,7 @@
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
-.benefits__icon {
+.benefits__wrap {
   display: flex;
   height: 120px;
   margin-bottom: 30px;
@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
 }
-.benefits__symbol {
+.benefits__icon {
   width: 70px;
   height: 70px;
 }

@@ -8,15 +8,16 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  &--not-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+  }
 }
-.footer-page__logo {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 10px;
-}
-.logo--dark {
+.logo__dark {
   color: #000;
 }
-.logo--light {
+.logo__light {
   color: $white-text-color;
 }

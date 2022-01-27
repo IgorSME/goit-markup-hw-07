@@ -15,10 +15,10 @@
   line-height: 1.17;
   text-align: center;
 }
-.works__picture {
+.works__wrap {
   position: relative;
 }
-.works__block {
+.works__overlay {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
-.works__title {
+.works__overlay-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
